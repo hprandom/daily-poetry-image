@@ -22,7 +22,7 @@ export class BingImageCreator {
      * @returns The image links
      */
     async createImage(prompt: string) {
-        const encodedPrompt = encodeURIComponent(`${prompt} 中国水墨画风格 中国传统色彩`);
+        const encodedPrompt = encodeURIComponent(`${prompt} 图片风格和创作方式可以在这些种类中选择：中国水墨画、山水、花鸟、工笔画、中国传统插画、中式插画、中国艺术`);
         let formData = new FormData();
         formData.append("q", encodedPrompt);
         formData.append("qa", "ds");
