@@ -22,7 +22,7 @@ export class BingImageCreator {
      * @returns The image links
      */
     async createImage(prompt: string) {
-        const encodedPrompt = encodeURIComponent(`${prompt} 中国绘画艺术风格 水墨画 水彩风格画 工笔画 `);
+        const encodedPrompt = encodeURIComponent(`${prompt} 古代中国场景 中国绘画艺术风格 水墨画 水彩风格画 工笔画 `);
         let formData = new FormData();
         formData.append("q", encodedPrompt);
         formData.append("qa", "ds");
