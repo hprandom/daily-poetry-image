@@ -9,7 +9,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
     site: SITE.website,
-    integrations: [tailwind(), sitemap()],
+    integrations: [tailwind(), sitemap(),transitions()],
     output: "static",
     adapter: vercel({
         webAnalytics: {
