@@ -18,7 +18,6 @@
         "@astrojs/rss": "^3.0.0",
         "@astrojs/sitemap": "^3.0.3",
         "@astrojs/vercel": "^5.1.0",
-        "typescript": "^5.2.2",
-        "@astrojs/transitions": "^2.0.2"
+        "typescript": "^5.2.2"
     }
 }
